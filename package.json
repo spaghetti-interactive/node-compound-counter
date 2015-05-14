@@ -1,0 +1,35 @@
+{
+  "name": "node-compound-counter",
+  "version": "0.1.0",
+  "description": "A Node.js module to use a single 32-bit positive integer as a record of integers. Loosely inspired by C structures.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/index"
+  },
+  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "error-foundry-js": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaghetti-interactive/node-compound-counter.git"
+  },
+  "keywords": [
+    "node",
+    "counter",
+    "bitfield",
+    "struct"
+  ],
+  "bugs": {
+    "url": "https://github.com/spaghetti-interactive/node-compound-counter/issues"
+  },
+  "homepage": "https://github.com/spaghetti-interactive/node-compound-counter"
+}
