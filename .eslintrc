@@ -1,4 +1,7 @@
 {
+    "env": {
+        "node": true
+    },
     "rules": {
         "strict": [ 2, "global" ],
         "no-underscore-dangle": 0,
