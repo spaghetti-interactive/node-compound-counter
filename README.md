@@ -28,6 +28,11 @@ counter.lo.set(128);
 counter.hi.set(16);
 
 console.log(counter.get()); // 4224
+
+counter.set(4000);
+
+console.log(counter.lo.get()); // 160
+console.log(counter.hi.get()); // 15
 ```
 
 ## Advanced Usage
